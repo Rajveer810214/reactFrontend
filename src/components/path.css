@@ -1,0 +1,342 @@
+.skil{
+    position: relative;
+    top: 93px;  
+
+}
+
+.skil h1{
+   text-align: center;
+   font-family: fantasy;
+}
+
+.skil .HTML{
+    width: 90%;
+    
+    margin: 1%;
+   
+    border: 2px solid black;
+    animation:html1 3s forwards 1s
+}
+
+@keyframes html1 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 90%;
+background-color: orange;
+
+    }
+    
+}
+.skil .HTMLCSS{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html2 3s forwards 1s;
+}
+
+@keyframes html2 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 80%;
+background-color: orange;
+
+    }
+    
+}
+
+.skil .HTMLJS{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html3 3s forwards 1s 
+}
+
+@keyframes html3 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 70%;
+background-color: orange;
+    }
+    
+}
+.skil .HTMLAD{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html4 3s forwards 1s
+}
+
+@keyframes html4 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+        
+width: 55%;
+background-color: orange;
+    }
+    
+}
+.skil .HTMLR{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html5 3s forwards 1s
+}
+
+@keyframes html5 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 62%;
+background-color: orange;
+    }
+    
+}
+.skil .HTMLNJ{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html6 3s forwards 1s
+}
+
+@keyframes html6 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 56%;
+background-color: orange;
+    }
+    
+}
+.skil .HTMLC{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html7 3s forwards 1s
+}
+
+@keyframes html7 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 77%;
+background-color: orange;
+    }
+    
+}
+.skil .HTMLCPLUS{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html8 3s forwards 1s
+}
+
+@keyframes html8 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 84%;
+background-color: orange;
+    }
+    
+}
+.skil .HTMLM{
+    width: 90%;
+    margin:1%;
+    border: 2px solid black;
+    animation:html10 3s forwards 1s;
+   
+}
+
+@keyframes html10 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 65%;
+background-color: orange;
+    }
+    
+}
+.skil .HTMLJA{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html11 3s forwards 1s;
+}
+
+@keyframes html11 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 61%;
+background-color: orange;
+    }
+    
+}
+.skil .HTMLP{
+    width: 90%;
+    
+
+    display: block;
+    margin:1%;
+    
+    border: 2px solid black;
+    animation:html12 3s forwards 1s;
+}
+
+@keyframes html12 {
+    from{ 
+        width: 0%;
+        background-color: white;
+    }
+    to{
+width: 64%;
+background-color: orange;
+    }
+    
+}
+.project{
+    position: absolute;
+top: 77px;
+}
+.col-md-7{
+    position: relative;
+    left: 7px;
+}
+.HTML span{
+    position: relative ;
+    left: 98%;
+}
+.HTMLCSS span{
+    position: relative;
+    left: 99%;
+}
+.HTMLJS span{
+    position: relative;
+    left: 94%;
+}
+.HTMLR span{
+    position: relative;
+    left: 96%;
+}
+.HTMLAD span{
+    position: relative;
+    left: 86%;
+}
+.HTMLNJ span{
+    position: relative;
+    left: 95%
+}
+.HTMLC span{
+    position: relative;
+    left: 100%
+}
+.HTMLCPLUS span{
+    position: relative;
+    left: 98%
+}
+.HTMLJA span{
+    position: relative;
+    left: 98%
+}
+.HTMLP span{
+    position: relative;
+    left: 96%;
+}
+@media only screen and (max-width: 600px)  {
+    .HTML span{
+        position: relative;
+        left: 90%;
+    }
+    .HTMLCSS span {
+        position: relative;
+        left: 96%;
+    }
+    .HTMLJS span {
+        position: relative;
+        left: 74%;
+    }
+    .HTMLR span {
+        position: relative;
+        left: 85%;
+    }
+    .HTMLAD span {
+        position: relative;
+        left: 40%;
+    }
+    .HTMLNJ span {
+        position: relative;
+        left: 78%;
+    }
+    .HTMLM span{
+        position: relative;
+        left: 74%;
+    } 
+    .HTMLCPLUS span {
+        position: relative;
+        left: 93%;
+    }
+    .HTMLJA span {
+        position: relative;
+        left: 92%;
+    }
+    .HTMLP span {
+        position: relative;
+        left: 83%;
+    }
+  }
