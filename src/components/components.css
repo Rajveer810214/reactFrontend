@@ -8,42 +8,7 @@
     position: relative;
     top: 78px;
 }
-.type h1{
-    font-family: montserrat;
-    font-size: 45px;
-    font-weight: 400;
-}
-.type{
-    font-family: ballu bai;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-font-size: 33px;
-    z-index: 1;
-    position: relative;
-  top: 94px;
-}
-.name{
-    display: block;
-}
-.section .social span{
-    /* top: 113px; */
 
-}
-.socials{
-    top: 82px;
-    position: relative;
-}
-.footerAll{
-    position: relative;
-    top: 52px;
-}
-.footerName{
-    
-    position: relative;
-    top: 33px;
-}
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap");
 * {
   margin: 0;
@@ -75,7 +40,7 @@ font-size: 33px;
   background: linear-gradient(#F68989, #874356);
   transition: 0.5s;
   -webkit-animation: animate 4s linear infinite;
-          animation: animate 4s linear infinite;
+  animation: animate 4s linear infinite;
 }
 .box::after {
   content: "";
@@ -163,6 +128,42 @@ font-size: 33px;
     transform: rotate(360deg);
   }
 }
+.type h1{
+  font-family: montserrat;
+  font-size: 45px;
+  font-weight: 400;
+}
+.type{
+  font-family: ballu bai;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+font-size: 33px;
+  z-index: 1;
+  position: relative;
+top: 94px;
+}
+.name{
+  display: block;
+}
+.section .social span{
+  /* top: 113px; */
+
+}
+.socials{
+  top: 82px;
+  position: relative;
+}
+.footerAll{
+  position: relative;
+  top: 52px;
+}
+.footerName{
+  
+  position: relative;
+  top: 33px;
+}
 @media only screen and (max-width: 600px) {
   .pic img {
     width: 40%;
@@ -177,4 +178,5 @@ font-size: 33px;
 .Typewriter span{
   font-size: 28px;
 }
+
 }
